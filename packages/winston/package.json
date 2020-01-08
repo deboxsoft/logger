@@ -1,0 +1,36 @@
+{
+  "name": "@deboxsoft/logger-winston-adapter",
+  "version": "0.0.0",
+  "description": "logger framework with winston",
+  "keywords": [
+    "logger"
+  ],
+  "author": "Nurdiansyah <nur.diansyah.ckt@gmail.com>",
+  "homepage": "https://bitbucket.org/deboxserver/debox-logger/src/master/packages/logger",
+  "license": "UNLICENSED",
+  "main": "./",
+  "types": "./",
+  "files": ["*.js", "*.d.ts"],
+  "scripts": {
+    "prepublishOnly": "tsc"
+  },
+  "dependencies": {
+    "fast-json-stringify": "^1.7.1",
+    "lodash.assign": "^4.2.0",
+    "lodash.get": "^4.4.2",
+    "lodash.isfunction": "^3.0.9",
+    "lodash.set": "^4.3.2",
+    "lodash.unset": "^4.5.2",
+    "on-finished": "^2.3.0",
+    "winston": "^3.0.0",
+    "winston-transport": "^4.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "benchmark": "^2.1.4",
+    "documentation": "^8.0.2",
+    "nyc": "^12.0.2",
+    "supertest": "^3.1.0",
+    "typescript": "^3.7.4"
+  }
+}

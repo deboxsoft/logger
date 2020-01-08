@@ -1,0 +1,20 @@
+{
+  "name": "@deboxsoft/logger",
+  "version": "0.0.0",
+  "description": "logger framework",
+  "keywords": [
+    "logger"
+  ],
+  "author": "Nurdiansyah <nur.diansyah.ckt@gmail.com>",
+  "homepage": "https://bitbucket.org/deboxserver/debox-logger/src/master/packages/logger",
+  "license": "UNLICENSED",
+  "main": "./",
+  "types": "./",
+  "files": ["*.js", "*.d.ts"],
+  "scripts": {
+    "prepublishOnly": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}
