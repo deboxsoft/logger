@@ -1,6 +1,6 @@
 {
   "name": "@deboxsoft/logger-winston-adapter",
-  "version": "0.0.0",
+  "version": "2.0.1",
   "description": "logger framework with winston",
   "keywords": [
     "logger"
@@ -10,7 +10,10 @@
   "license": "UNLICENSED",
   "main": "./",
   "types": "./",
-  "files": ["*.js", "*.d.ts"],
+  "files": [
+    "*.js",
+    "*.d.ts"
+  ],
   "scripts": {
     "prepublishOnly": "tsc"
   },
