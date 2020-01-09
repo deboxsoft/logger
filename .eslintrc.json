@@ -1,8 +1,11 @@
 {
-    "extends": ["@deboxsoft/devel/common"],
+    "extends": ["@deboxsoft/devel/typescript"],
     "parserOptions": {
       "sourceType": "module",
-      "project": ["./tsconfig.json", "packages/*/tsconfig.json"]
+      "project": [
+        "./tsconfig.json",
+        "packages/logger",
+        "packages/pino"
+      ]
     }
   }
-  

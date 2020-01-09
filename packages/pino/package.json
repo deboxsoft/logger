@@ -16,7 +16,8 @@
     "typescript": "^3.7.4"
   },
   "scripts": {
-    "prepublishOnly": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "@deboxsoft/logger": "^2.0.1",
