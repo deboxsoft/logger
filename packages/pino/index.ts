@@ -1,9 +1,8 @@
-import pino from 'pino';
-import {registerLogger} from '@deboxsoft/logger'
+import { PinoLoggerProvider } from './PinoLoggerProvider';
+import { createLoggerModule as _createLoggerModule } from '@deboxsoft/logger';
+import { LoggerOptions } from 'pino';
 
-
-export const createLogger = (options: pino.LoggerOptions): pino.Logger => {
-    const logger = pino(options)
-    registerLogger(logger)
-    return logger;
+export const createLoggerModule = (options?: LoggerOptions) => {
+  const loggerProvider = new PinoLoggerProvider(options);
+  return _createLoggerModule(loggerProvider);
 };
