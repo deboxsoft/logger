@@ -37,3 +37,7 @@ jspm_packages
 .node_repl_history
 
 processed*.txt
+
+# ignore compile result
+packages/*/**/*.js
+packages/*/**/*.d.ts
