@@ -1,5 +1,5 @@
 {
-  "name": "@deboxsoft/logger-pino-adapter",
+  "name": "@deboxsoft/logger-pino",
   "version": "2.0.1",
   "description": "> TODO: description",
   "author": "Nurdiansyah <nur.diansyah.ckt@gmail.com>",
