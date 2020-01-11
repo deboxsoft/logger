@@ -7,8 +7,10 @@ interface OptionsLoggerModule {
   logger?: ILogger;
 }
 
-export const createLoggerModule = (loggerProvider: LoggerProvider) =>
-  new GraphQLModule({
+let loggerModule: GraphQLModule;
+
+export const createLoggerModule = (loggerProvider: LoggerProvider) => {
+  loggerModule = new GraphQLModule({
     providers: [
       {
         provide: LoggerProvider,
@@ -16,3 +18,7 @@ export const createLoggerModule = (loggerProvider: LoggerProvider) =>
       }
     ]
   });
+  return loggerModule;
+};
+
+export const getLoggerModule = () => loggerModule;
