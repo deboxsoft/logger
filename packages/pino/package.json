@@ -1,6 +1,6 @@
 {
   "name": "@deboxsoft/logger-pino",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "> TODO: description",
   "author": "Nurdiansyah <nur.diansyah.ckt@gmail.com>",
   "homepage": "https://bitbucket.org/deboxserver/debox-logger/src/master/packages/pino",
@@ -20,7 +20,7 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
-    "@deboxsoft/logger": "2.1.0",
+    "@deboxsoft/logger": "2.1.1",
     "pino": "^5.15.0"
   }
 }
